@@ -1,0 +1,120 @@
+body{
+    margin: 0; /*Espaçamento externo*/
+    padding: 0; /*Espaçamento interno*/
+    font-family: Arial, sans-serif;
+    background-color: #e7f3ff;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Estilos para o cabeçalho*/
+header{
+    background-color: #1e90ff;
+    padding: 10px 20px;
+    display: flex; /*Alinhar cabeçalho*/
+    justify-content: space-between; /*Espaçamento */
+    align-items: center;
+    color: white;
+    box-shadow: 0 3px 4px #aaa;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px; /*Tamanho do espaço entre itens*/
+}
+
+header > nav {
+    display: flex; /*Coloca um item do lado do outro*/
+    gap: 15px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header > nav > a:hover{
+    text-decoration: underline;
+    color: aqua;
+    scale: 1.1;
+    transition: 0.2s;
+}
+
+/*Estilo para o conteùdo principal*/
+main{
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px #aaa;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.blocos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blocos > a{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 3px 5px #aaa;
+}
+
+.blocos > a > img{
+    width: 300px;
+    height: 200px;
+}
+
+/*Estilos do rodapé*/
+footer{
+    background-color: #1e90ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 -4px 4px #aaa;
+}
+
+.titulo{
+    text-align: center;
+    color: #1e90ff;
+    text-shadow: 0 2px 2px #aaa;
+}
+
+form{
+    max-width: 400px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    padding: 8px;
+}
+
+button{
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0d4073;
+}
+
+.resultado{
+    margin-top: 20px;
+    text-align: center;
+}
