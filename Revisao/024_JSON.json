@@ -1,0 +1,20 @@
+{
+    "nome": "Gustavo Henrique",
+    "idade": 16,
+    "turma": {
+
+        "nome_turma ": "2º B",
+        "ano": 2025  
+},
+"notas": [
+    {
+        "disciplina": "Matemática",
+        "nota": 10
+    },
+    {
+        "disciplina": "Português",
+        "nota": 10
+    }
+]
+
+}

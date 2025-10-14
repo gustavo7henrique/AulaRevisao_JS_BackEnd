@@ -1,0 +1,21 @@
+{
+    "nome": "Gustavo Henrique Nicolete Pinheiro",
+    "idade": 16,
+    "cidadeNasceu": "Tupi Paulista",
+    "cidadeMora": "Andradina",
+    "estudante": true,
+    "namora": false,
+    "nascimento": [
+
+        {
+            "diaNascimento": 22
+        },
+        {
+            "mesNascimento": 6
+        },
+        {
+            "anoNascimento": 2009
+        }
+
+    ]
+}

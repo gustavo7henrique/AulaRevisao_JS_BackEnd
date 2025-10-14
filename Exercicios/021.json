@@ -1,0 +1,19 @@
+{
+    "nome": "Gustavo Henrique",
+    "username": "gustavoh.np",
+    "nr_seguidores": "100",
+    "posts": [
+        {
+            "legenda": "Praia",
+            "curtidas": 25
+        },
+        {
+            "legenda": "Carro Novo",
+            "curtidas": 50
+        },
+        {
+            "legenda": "Familia",
+            "curtidas": 100
+        }
+    ]    
+}
